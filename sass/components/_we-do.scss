@@ -1,7 +1,12 @@
-.we-do {
-	padding-bottom: 94px;
-	margin-bottom: 0;
-	margin-top: 0;
+.we-do.section {
+	display: none;
+}
+
+@media screen and (min-width: 768px) {
+	.we-do.section {
+		display: block;
+		padding-top: 0;
+	}
 }
 
 .we-do-list {
