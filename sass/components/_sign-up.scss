@@ -3,6 +3,7 @@
 	margin-top: 0;
 	margin-bottom: 20px;
 	text-transform: uppercase;
+	text-align: left;
 	color: $white-color;
 	font-weight: 700;
 	line-height: 1.14;
@@ -11,7 +12,6 @@
 
 .sign-up__button {
 	padding: 10px 29px;
-	// margin-left: 12px;
 	display: inline-flex;
 	justify-content: center;
 	align-items: center;
@@ -28,7 +28,11 @@
     &:focus {
 	color: $accent-color;
 	background-color: $white-color;
-    }
+	}
+	
+	@media screen and (min-width: 1200px) {
+		margin-top: 0;
+	}
 }
 
 
@@ -56,7 +60,7 @@
 	padding-top: 15px;
 	padding-bottom: 15px;
 	padding-left: 15px;
-	margin-right: auto;
+	margin-right: 12px;
 	outline: none;
 	color: var(--address);
 	font-size: 16px;

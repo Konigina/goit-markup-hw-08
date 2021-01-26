@@ -11,14 +11,12 @@
 	margin: -15px;
 }
 
-
-
 .our-clients-list__item {
 	// width: 170px;
 	// height: 90px;
-	// width: 210px;
-	// height: 90px;
-	width: 100%;
+	min-width: 210px;
+	min-height: 90px;
+	// width: 100%;
 	background-color: $white-color;
 	border: 1px solid $our-clients-section;
 	border-radius: 4px;

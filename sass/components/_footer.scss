@@ -1,6 +1,4 @@
 .footer-container {
-	// max-width: 1600px;
-	// height: 252px;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 60px 15px;
@@ -8,10 +6,6 @@
 }
 
 .address-container {
-	margin-left: auto;
-	margin-right: auto;
-	// @extend %flex;
-	// flex-direction: column;
 	text-align: center;
 }
 
@@ -42,27 +36,67 @@
 	margin-right: auto;
 }
 
-// .address-container {
-// 	max-width: 1200px;
-// 	padding-left: 15px;
-// 	padding-right: 15px;
-// 	padding-top: 60px;
-// 	padding-bottom: 60px;
-// 	margin-left: auto;
-// 	margin-right: auto;
-// 	display: flex;
-// 	align-items: baseline;
-// 	justify-content: start;
-// }
+@media screen and (min-width: 768px) {
+	.address-container {
+		padding-left: 60px;
+		padding-right: 60px;
+		display: flex;
+		justify-content: space-evenly;
+		align-items: baseline;
+		flex-wrap: wrap;
+	}
 
-// .logo-container {
-// 	padding-left: 0;
-// 	padding-right: 70px;
-// 	padding-top: 0;
-// 	padding-bottom: 0;
-// 	margin-left: 0;
-// 	margin-right: 0;
-// }
+	.social-links-footer {
+		margin-left: 165px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+
+	.footer-container {
+		max-width: 1600px;
+	    height: 252px;
+	}
+
+.address-container {
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+}
+
+.logo-container {
+	padding-left: 0;
+	padding-right: 70px;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.social-links-footer {
+	margin-left: 0px;
+	margin-right: 93px;
+}
+
+.footer-sign-up-form-fields {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	height: auto;
+}
+ .sign-up {
+	text-align: left;
+ }
+}
+
+
 
 .address-contacts {
 	text-decoration: none;
@@ -89,10 +123,6 @@
 	margin-bottom: 0;
 }
 
-// .social-links-footer {
-// 	margin-left: 0px;
-// 	margin-right: 93px;
-// }
 
 .social-links-footer__text {
 	text-transform: uppercase;

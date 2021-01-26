@@ -4,8 +4,20 @@
 	list-style: none;
 	margin-top: 0;
 	margin-bottom: 34px;
+
+	@media screen and (max-width: 767px) {
+		flex-wrap: wrap;
+		margin-bottom: -15px;
+		padding: 0;
+		justify-content: flex-start;
+	}
 }
 
+   @media screen and (max-width: 767px) {
+	   .filter__item {
+		   margin-bottom: 15px;
+	   }
+}
 .filter__item:not(:last-child) {
 	margin-right: 8px;
 }
