@@ -1077,7 +1077,7 @@ img {
   }
 }
 
-@media screen and (min-width: 786px) {
+@media screen and (min-width: 768px) {
   .card-set__item .card-set {
     display: -webkit-box;
     display: -ms-flexbox;
